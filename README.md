@@ -1,86 +1,80 @@
 🏦 Banking Analytics Dashboard
 
 <p align="center">
-  <img src="BANKING_DASHBOARD_HOME.png" alt="Banking Analytics Dashboard" width="900"/>
+  <img src="BANKING_DASHBOARD_HOME.png" alt="Banking Analytics Dashboard" width="900">
 </p>
 
 <p align="center">
-  <strong>End-to-end Banking Analytics project using Power BI, Python, SQL and Excel</strong>
+  <strong>Banking Analytics using Power BI, Python, SQL & Excel</strong>
 </p>
 
 <p align="center">
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" alt="Python">
-  </a>
-  <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi">
-    <img src="https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
-  </a>
-  <a href="https://www.sql.org/">
-    <img src="https://img.shields.io/badge/SQL-Analysis-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
-  </a>
-  <a href="https://pandas.pydata.org/">
-    <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas" alt="Pandas">
-  </a>
-  <a href="https://numpy.org/">
-    <img src="https://img.shields.io/badge/NumPy-Numerical%20Analysis-013243?style=for-the-badge&logo=numpy" alt="NumPy">
-  </a>
-  <a href="https://matplotlib.org/">
-    <img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge" alt="Matplotlib">
-  </a>
-  <a href="https://seaborn.pydata.org/">
-    <img src="https://img.shields.io/badge/Seaborn-EDA-4C72B0?style=for-the-badge" alt="Seaborn">
-  </a>
-  <a href="https://jupyter.org/">
-    <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
-  </a>
-  <a href="https://www.microsoft.com/en-us/microsoft-365/excel">
-    <img src="https://img.shields.io/badge/Excel-Data-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel">
-  </a>
+  <img src="https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/SQL-Analysis-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/NumPy-Numerical%20Analysis-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/Seaborn-EDA-4C72B0?style=for-the-badge" alt="Seaborn">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/badge/Excel-Data-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel">
 </p>
 
 📊 Dashboard Preview
 
+The banking dashboard provides an interactive overview of customers, loans, deposits, fees, account balances, gender, and engagement.
+
 <p align="center">
-  <img src="BANKING_DASHBOARD_HOME.png" alt="Banking Dashboard Home" width="900"/>
+  <img src="BANKING_DASHBOARD_HOME.png" alt="Banking Dashboard Home" width="900">
 </p>
 
-The dashboard provides an interactive view of banking customers, loans, deposits, fees, account balances, engagement, and customer characteristics.
+📈 Visualizations
+
+The Power BI report includes multiple analytical pages and interactive views:
+
+👥 Total Clients
+
+💰 Total Loan
+
+🏦 Total Deposit
+
+💸 Total Fees
+
+💳 Credit Card Amount
+
+💵 Savings Account Amount
+
+🏦 Bank Loan Analysis
+
+🏢 Business Lending Analysis
+
+🌍 Loan by Nationality
+
+💼 Loan by Income Band
+
+🤝 Banking Relationship Analysis
+
+⏳ Engagement Timeframe Analysis
+
+📊 Deposit Analysis
+
+🔎 Drill-Through Analysis
+
+📋 Executive Summary
 
 📌 Project Overview
 
-This project is a Banking Analytics Dashboard developed to analyze banking customers and financial activities using Power BI, Python, SQL, and Excel.
+This project is an end-to-end Banking Analytics project developed to analyze customer and financial data and convert it into meaningful business insights.
 
-The project focuses on understanding banking data and converting it into meaningful business insights through:
+The project combines Power BI, Python, SQL, and Excel to perform data preparation, exploratory analysis, KPI development, DAX calculations, and interactive dashboard reporting.
 
-Data preparation
+The analysis focuses on:
 
-Exploratory Data Analysis (EDA)
+Customer analysis
 
-Feature engineering
+Loan portfolio analysis
 
-SQL analysis
-
-DAX measures
-
-KPI development
-
-Interactive dashboard design
-
-Business-oriented visualization
-
-The Power BI report contains dedicated pages for Home, Loan Analysis, Deposit Analysis, Summary, and Drill Through analysis.
-
-🎯 Business Problem
-
-Banking institutions manage large amounts of customer, lending, deposit, and account-level information.
-
-The objective of this project is to provide a centralized analytical solution that helps users understand:
-
-Customer distribution
-
-Loan exposure
-
-Deposit levels
+Deposit analysis
 
 Business lending
 
@@ -92,39 +86,61 @@ Customer engagement
 
 Account balances
 
-Fee generation
+Processing fees
 
-Customer characteristics by gender, nationality, income and other dimensions
+Customer demographics
 
-The dashboard is designed to support data-driven banking and portfolio analysis.
+🎯 Business Problem
+
+Banking institutions manage large volumes of customer and financial information. Without a centralized analytical view, it can be difficult to understand customer behavior, lending exposure, deposits, and account-level activity.
+
+Business Objective
+
+The objective of this project is to build an interactive analytical solution that helps users:
+
+Understand the customer base
+
+Analyze total loan exposure
+
+Compare bank loans and business lending
+
+Analyze deposits across account types
+
+Understand customer engagement
+
+Compare banking relationships
+
+Analyze loan distribution by nationality and income band
+
+Monitor important banking KPIs
 
 💡 Project Solution
 
-An interactive Power BI dashboard was developed to bring together important banking KPIs and analytical views.
+A Power BI dashboard was developed to provide an interactive and centralized view of banking performance.
 
-The solution combines:
+The complete workflow is:
 
-Raw Banking Data
-       │
-       ▼
-Data Cleaning & Preparation
-       │
-       ▼
-Python EDA + SQL Analysis
-       │
-       ▼
+Banking Dataset
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
 Feature Engineering
-       │
-       ▼
+      │
+      ▼
+Python EDA + SQL Analysis
+      │
+      ▼
 DAX Measures & KPIs
-       │
-       ▼
+      │
+      ▼
 Power BI Data Model
-       │
-       ▼
-Interactive Banking Dashboard
-       │
-       ▼
+      │
+      ▼
+Interactive Dashboard
+      │
+      ▼
 Business Insights
 
 🛠️ Tech Stack
@@ -135,7 +151,7 @@ Purpose
 
 🟨 Power BI
 
-Interactive dashboards, data modeling, visualization and DAX
+Dashboard development, data modeling, DAX and visualization
 
 🐍 Python
 
@@ -143,7 +159,7 @@ Exploratory Data Analysis and data preparation
 
 🗄️ SQL
 
-Data querying and analytical operations
+Data querying and analysis
 
 🐼 Pandas
 
@@ -177,7 +193,7 @@ Main Tables
 
 Table
 
-Purpose
+Description
 
 Clients - Banking
 
@@ -197,17 +213,17 @@ Investment advisor information
 
 Period
 
-Period/time-related information
+Period-related information
 
-The tables are connected through identifiers and relationships to support integrated analysis.
+The tables are connected through identifiers and relationships to support integrated banking analysis.
 
 🧹 Data Cleaning & Feature Engineering
 
-Several calculated fields were created in Power BI to make the raw banking data suitable for analysis.
+Several calculated fields were created to make the raw banking data suitable for analysis.
 
 ⏳ Engagement Timeframe
 
-Customers were categorized based on their engagement duration with the bank:
+Customers were categorized according to their engagement duration:
 
 Category
 
@@ -221,7 +237,7 @@ Category
 
 📅 Engagement Days
 
-The number of days since the customer joined the bank was calculated using DATEDIFF():
+The number of days since a customer joined the bank was calculated using DATEDIFF().
 
 Engagment Days =
 DATEDIFF(
@@ -232,11 +248,11 @@ DATEDIFF(
 
 💰 Income Band
 
-Estimated income was grouped into three analytical categories:
+Estimated income was grouped into three categories:
 
-Income
+Estimated Income
 
-Band
+Income Band
 
 < 100,000
 
@@ -307,11 +323,6 @@ Total Deposit =
 [Foreign Currency Account] +
 [Checking Accounts]
 
-💳 Total Credit Card Amount
-
-Total CC Amount =
-SUM('Clients - Banking'[Amount of Credit Cards])
-
 💸 Total Fees
 
 Total Fees =
@@ -319,6 +330,11 @@ SUMX(
     'Clients - Banking',
     [Total Loan] * 'Clients - Banking'[Processing Fees]
 )
+
+💳 Total Credit Card Amount
+
+Total CC Amount =
+SUM('Clients - Banking'[Amount of Credit Cards])
 
 💰 Savings Account
 
@@ -340,13 +356,13 @@ SUM('Clients - Banking'[Foreign Currency Account])
 Credit Cards Balance =
 SUM('Clients - Banking'[Credit Card Balance])
 
-📊 Dashboard Pages
+🏠 Dashboard Pages
 
-🏠 1. Home Dashboard
+1. 🏠 Home Dashboard
 
-The Home page provides an executive overview of the banking portfolio.
+The Home page provides an executive-level overview of the banking portfolio.
 
-Main KPIs
+Key KPIs include:
 
 KPI
 
@@ -354,27 +370,23 @@ KPI
 
 💰 Total Loan
 
-🏦 Total Deposit
+💵 Total Deposit
 
 💸 Total Fees
 
 💳 Total CC Amount
 
-💵 Savings Account Amount
+💰 Savings Account Amount
 
-The page also provides navigation to:
+<p align="center">
+  <img src="BANKING_HOME.png" alt="Home Dashboard" width="900">
+</p>
 
-Loan Analysis
+2. 💰 Loan Analysis
 
-Deposit Analysis
+The Loan Analysis page focuses on lending-related activity.
 
-Summary
-
-💰 2. Loan Analysis
-
-The Loan Analysis page focuses on lending activity.
-
-Analysis Included
+It includes:
 
 Total Loan
 
@@ -392,13 +404,15 @@ Bank Loan by Nationality
 
 Loan amounts by Engagement Timeframe
 
-This page helps analyze how lending exposure is distributed across different customer segments.
+<p align="center">
+  <img src="BANKING_LOAN_ANALYSIS.png" alt="Loan Analysis Dashboard" width="900">
+</p>
 
-💵 3. Deposit Analysis
+3. 💵 Deposit Analysis
 
-The Deposit Analysis page focuses on deposits and account balances.
+The Deposit Analysis page focuses on customer deposits and account balances.
 
-Analysis Included
+It includes:
 
 Total Deposit
 
@@ -416,11 +430,11 @@ Deposit by Nationality
 
 Deposit by Engagement Timeframe
 
-📋 4. Summary Dashboard
+4. 📋 Summary Dashboard
 
-The Summary page consolidates the major banking KPIs into a single view.
+The Summary page provides a consolidated view of the major banking KPIs.
 
-KPIs Included
+It includes:
 
 Category
 
@@ -474,11 +488,19 @@ Foreign Currency Amount
 
 Engagement Account
 
-🔎 5. Drill-Through Analysis
+<p align="center">
+  <img src="BANKING_SUMMARY.png" alt="Summary Dashboard" width="900">
+</p>
 
-The Power BI report includes a Drill Through page that allows users to move from summarized dashboard views toward more detailed customer-level analysis.
+5. 🔎 Drill-Through Analysis
 
-📈 Key Business KPIs
+The report includes a Drill Through page that allows users to move from aggregated dashboard analysis toward more detailed customer-level information.
+
+<p align="center">
+  <img src="BANKING_DRILL_THROUGH.png" alt="Drill Through Dashboard" width="900">
+</p>
+
+📊 Key Business KPIs
 
 KPI
 
@@ -498,7 +520,7 @@ Total bank loan amount
 
 🏢 Business Lending
 
-Total lending associated with businesses
+Total business lending amount
 
 💵 Total Deposit
 
@@ -534,17 +556,7 @@ Number of days since the customer joined the bank
 
 🐍 Python Exploratory Data Analysis
 
-The project includes a Jupyter Notebook for exploratory analysis using:
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-EDA Areas
+The project includes a Jupyter Notebook for exploratory analysis using Python, Pandas, NumPy, Matplotlib and Seaborn.
 
 🔍 Data Understanding
 
@@ -596,7 +608,7 @@ Foreign currency accounts
 
 Business lending
 
-📈 Visualization
+📈 Visual Analysis
 
 Bar charts
 
@@ -626,25 +638,25 @@ Customer engagement duration
 
 Fee generation from lending activity
 
-Different account balances
+Account balance distribution
 
 Relationships between banking variables
 
-The project documentation also identifies customer, nationality, banking relationship and account-level analysis as important areas for understanding the banking portfolio.
+The project documentation also highlights customer, nationality, banking relationship and account-level analysis as important areas for understanding the banking portfolio.
 
-🚀 How to Run the Project
+🚀 How to Use the Project
 
-Power BI Dashboard
+Power BI
 
 Download Banking_Dashboard.pbix.
 
 Open the file using Power BI Desktop.
 
-Navigate through the dashboard pages.
+Navigate through the Home, Loan Analysis, Deposit Analysis and Summary pages.
 
-Use the available filters and slicers.
+Use available filters and slicers.
 
-Explore detailed information using Drill Through.
+Use Drill Through for detailed analysis.
 
 Python EDA
 
@@ -652,11 +664,11 @@ Open:
 
 bank_EDA.ipynb
 
-Install the main Python libraries:
+Install the main libraries:
 
 pip install pandas numpy matplotlib seaborn
 
-Then run the notebook cells sequentially.
+Run the notebook cells sequentially to reproduce the EDA.
 
 📁 Repository Structure
 
@@ -669,57 +681,12 @@ Banking-Analytics-PowerBI-python-sql-AI/
 ├── 📓 bank_EDA.ipynb
 │
 ├── 🖼️ BANKING_DASHBOARD_HOME.png
-├── 🖼️ HOME.png
-├── 🖼️ LOAN ANALYSIS.png
-├── 🖼️ DEPOSIT_ANALYSIS.png
-├── 🖼️ SUMMARY.png
-├── 🖼️ Drill Through.png
+├── 🖼️ BANKING_HOME.png
+├── 🖼️ BANKING_LOAN_ANALYSIS.png
+├── 🖼️ BANKING_SUMMARY.png
+├── 🖼️ BANKING_DRILL_THROUGH.png
 │
 └── 📘 README.md
-
-📚 Project Documentation
-
-The repository contains a detailed project report covering:
-
-Problem statement
-
-Solution
-
-Dataset
-
-Data cleaning
-
-Feature engineering
-
-DAX functions
-
-KPI definitions
-
-Dashboard visualizations
-
-Conclusion
-
-Future work
-
-🔮 Future Scope
-
-The project can be further extended with:
-
-Customer segmentation
-
-Credit risk scoring
-
-Loan default prediction
-
-Customer churn analysis
-
-Time-series analysis
-
-Predictive analytics
-
-Automated reporting
-
-Advanced customer-level risk analysis
 
 🎓 Skills Demonstrated
 
@@ -743,9 +710,9 @@ Joins
 
 Aggregations
 
-Business Queries
+Analytical Queries
 
-Analytical Calculations
+Business Calculations
 
 🐍 Python
 
@@ -791,7 +758,7 @@ Business Reporting
 
 Data Storytelling
 
-📌 Learning Outcomes
+📚 Learning Outcomes
 
 Through this project, I worked on:
 
@@ -815,9 +782,9 @@ Ravi Nandan
 
 Senior Market Research Analyst | Data Analytics Enthusiast
 
-Ravi Nandan is a Senior Market Research Analyst focused on market intelligence, strategic insights, and data-driven business analysis, with an interest in using analytics and visualization tools to solve business problems.
+Ravi Nandan is a Senior Market Research Analyst focused on market intelligence, strategic insights and data-driven business analysis, with an interest in using analytics and visualization tools to solve business problems.
 
-His analytical toolkit includes Power BI, SQL, Python, Excel, Pandas, and data visualization, with a focus on transforming raw data into structured insights and decision-support dashboards.
+His analytical toolkit includes Power BI, SQL, Python, Excel, Pandas and data visualization, with a focus on transforming raw data into structured insights and decision-support dashboards.
 
 🔗 Connect With Me
 
@@ -829,4 +796,4 @@ His analytical toolkit includes Power BI, SQL, Python, Excel, Pandas, and data v
 
 ⭐ Support the Project
 
-If you found this project useful, informative, or helpful for learning, consider giving the repository a ⭐ Star.
+If you found this project useful, consider giving the repository a ⭐ Star.
