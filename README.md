@@ -1,56 +1,81 @@
-Banking Analytics Dashboard — Power BI, Python & SQL
+🏦 Banking Analytics Dashboard
+
+<img width="1257" height="652" alt="image" src="https://github.com/user-attachments/assets/cca8988f-37dc-4736-b28d-042277701152" />
+
+
+
+
+An end-to-end banking analytics project using Power BI, Python, SQL, and Excel to analyze customers, loans, deposits, fees, account balances, and banking relationships.
 
 📌 Project Overview
 
-This project is a Banking Analytics Dashboard developed to analyze banking customers, loans, deposits, fees, account balances, and customer relationships.
+This project focuses on analyzing banking data and transforming it into meaningful business insights through data analysis, data preparation, KPI development, and interactive Power BI dashboards.
 
-The project combines Python, SQL, and Power BI to perform exploratory data analysis, data preparation, KPI calculation, and interactive dashboard development.
+The project combines:
 
-The main objective is to use banking data to support analysis of customer profiles, lending activity, deposits, account balances, and other banking-related metrics.
+Python for Exploratory Data Analysis (EDA)
+
+SQL for data querying and analysis
+
+Power BI for interactive dashboards and visualization
+
+DAX for calculated columns and business KPIs
+
+Excel for source data and supporting analysis
+
+The dashboard provides a consolidated view of customer activity, lending, deposits, account balances, fees, and customer engagement.
 
 🎯 Problem Statement
 
-The project focuses on developing an understanding of risk analytics in banking and financial services and how data can be used to support better lending-related decisions.
+The objective of this project is to develop an understanding of risk analytics in banking and financial services and demonstrate how banking data can be used to analyze customers and lending-related activities.
 
-The Power BI dashboards provide a consolidated view of customer and banking information, allowing users to analyze loan amounts, deposits, customer characteristics, banking relationships, and other financial metrics.
+The dashboard helps users examine customer profiles, loan exposure, deposits, fees, banking relationships, and other financial metrics.
 
 💡 Solution
 
-An interactive Power BI dashboard was created to provide a centralized view of key banking KPIs and customer-level information.
+An interactive Power BI dashboard was developed to provide a centralized view of important banking KPIs.
 
-The dashboard allows users to:
+The dashboard enables analysis of:
 
-Monitor total clients
+Customer base
 
-Analyze total loan exposure
+Total loan exposure
 
-Compare bank loans and business lending
+Bank loans
 
-Analyze credit card balances
+Business lending
 
-Analyze total deposits and different account types
+Credit card balances
 
-Analyze banking relationships
+Total deposits
 
-Compare customers by nationality, gender, income band, and engagement timeframe
+Savings accounts
 
-Analyze fees generated from lending activity
+Checking accounts
 
-Explore customer-level information using drill-through functionality
+Foreign currency accounts
+
+Processing fees
+
+Customer engagement
+
+Banking relationships
+
+Customer demographics
 
 🛠️ Tools & Technologies
 
-Tool / Technology
+Technology
 
-Purpose
+Usage
 
 Power BI
 
-Dashboard development, data modeling, DAX measures, interactive visualization
+Dashboard development, visualization, data modeling and DAX
 
 Python
 
-Exploratory Data Analysis and statistical/visual analysis
+Exploratory Data Analysis
 
 Pandas
 
@@ -68,144 +93,25 @@ Seaborn
 
 Statistical visualization
 
-PostgreSQL
-
-Database connectivity and SQL-based data extraction
-
 SQL
 
-Querying banking/customer data
+Data querying and analysis
 
 Excel
 
-Source dataset and supporting tables
+Source data and supporting analysis
 
 Jupyter Notebook
 
-Python-based EDA
+Python EDA
 
-📂 Dataset
+📊 Dashboard Pages
 
-The project dataset contains banking and customer information organized across multiple related tables.
+🏠 Home Dashboard
 
-Main Tables
+The Home page provides an executive-level overview of the banking portfolio.
 
-Clients - Banking
-
-Gender
-
-Banking Relationship
-
-Investment Advisor
-
-The tables are connected through identifiers such as client IDs and other key fields.
-
-The main customer-banking dataset contains approximately 2,999 records and 25 fields.
-
-Key Data Categories
-
-The dataset includes information related to:
-
-Client ID
-
-Client name
-
-Age
-
-Joined bank date
-
-Investment advisor
-
-Nationality
-
-Occupation
-
-Fee structure
-
-Loyalty classification
-
-Estimated income
-
-Superannuation savings
-
-Credit card balance
-
-Bank loans
-
-Bank deposits
-
-Checking accounts
-
-Savings accounts
-
-Foreign currency accounts
-
-Business lending
-
-Banking relationship
-
-Gender
-
-🧹 Data Preparation & Feature Engineering
-
-Several calculated columns were created in Power BI for analysis.
-
-1. Engagement Timeframe
-
-A customer engagement category was created to classify how long customers have been associated with the bank.
-
-Categories include:
-
-< 5 Years
-
-< 10 Years
-
-< 20 Years
-
-> 20 Years
-
-2. Engagement Days
-
-The number of days since the customer joined the bank was calculated using DATEDIFF().
-
-Engagment Days =
-DATEDIFF(
-    'Clients - Banking'[Joined Bank],
-    TODAY(),
-    DAY
-)
-
-3. Income Band
-
-Estimated income was categorized into three groups:
-
-Low: less than 100,000
-
-Medium: 100,000 to less than 300,000
-
-High: 300,000 and above
-
-The Python EDA also uses the same income-band concept with pandas.cut().
-
-4. Processing Fees
-
-Processing fees were assigned according to the fee structure:
-
-High → 5%
-
-Medium → 3%
-
-Low → 1%
-
-📊 Power BI Dashboard
-
-The Power BI report contains multiple interactive pages.
-
-1. Home Dashboard
-
-The Home page provides a high-level overview of the banking portfolio.
-
-Key KPIs include:
+It includes KPIs such as:
 
 Total Clients
 
@@ -219,21 +125,15 @@ Total Credit Card Amount
 
 Savings Account Amount
 
-Navigation buttons are provided for:
-
-Loan Analysis
-
-Deposit Analysis
-
-Summary
+The dashboard also includes filters for time period and gender, along with navigation to the Loan Analysis, Deposit Analysis, and Summary pages.
 
 
 
-2. Loan Analysis
+💰 Loan Analysis
 
 The Loan Analysis page focuses on lending-related metrics.
 
-It includes:
+It analyzes:
 
 Total Loan
 
@@ -249,25 +149,23 @@ Bank Loan by Income Band
 
 Bank Loan by Nationality
 
-Loan amounts by engagement timeframe
+Loan amounts by Engagement Timeframe
 
-
-
-3. Deposit Analysis
+💵 Deposit Analysis
 
 The Deposit Analysis page focuses on customer deposits and account balances.
 
-It includes analysis of:
+It includes:
 
 Total Deposit
 
 Bank Deposit
 
-Savings Account
+Savings Account Amount
 
-Checking Account
+Checking Account Amount
 
-Foreign Currency Account
+Foreign Currency Amount
 
 Deposit by Income Band
 
@@ -275,9 +173,7 @@ Deposit by Nationality
 
 Deposit by Engagement Timeframe
 
-
-
-4. Summary Dashboard
+📋 Summary Dashboard
 
 The Summary page provides a consolidated view of the major banking KPIs.
 
@@ -307,13 +203,56 @@ Foreign Currency Amount
 
 Engagement Account
 
+🔎 Drill-Through Analysis
 
+The project also includes a Drill Through page that allows users to move from aggregated dashboard views to more detailed customer-level analysis.
 
-5. Drill-Through
+🧹 Data Preparation & Feature Engineering
 
-The report also includes a Drill Through page to allow users to move from aggregated dashboard analysis toward more detailed customer-level information.
+Several calculated fields were created to improve the analysis.
 
+Engagement Timeframe
 
+Customers were categorized based on their engagement duration with the bank:
+
+< 5 Years
+
+< 10 Years
+
+< 20 Years
+
+> 20 Years
+
+Engagement Days
+
+The number of days since the customer joined the bank was calculated using DAX:
+
+Engagment Days =
+DATEDIFF(
+    'Clients - Banking'[Joined Bank],
+    TODAY(),
+    DAY
+)
+
+Income Band
+
+Estimated income was categorized into:
+
+Low — less than 100,000
+
+Mid — 100,000 to less than 300,000
+
+High — 300,000 and above
+
+Processing Fees
+
+Processing fees were assigned according to the fee structure:
+
+High → 5%
+
+Mid → 3%
+
+Low → 1%
 
 📐 Key DAX Measures
 
@@ -352,10 +291,13 @@ Total Deposit =
 [Foreign Currency Account] +
 [Checking Accounts]
 
-Total Credit Card Amount
+Total Fees
 
-Total CC Amount =
-SUM('Clients - Banking'[Amount of Credit Cards])
+Total Fees =
+SUMX(
+    'Clients - Banking',
+    [Total Loan] * 'Clients - Banking'[Processing Fees]
+)
 
 Savings Account
 
@@ -372,21 +314,18 @@ Foreign Currency Account
 Foreign Currency Account =
 SUM('Clients - Banking'[Foreign Currency Account])
 
-Total Fees
+Credit Card Balance
 
-Total Fees =
-SUMX(
-    'Clients - Banking',
-    [Total Loan] * 'Clients - Banking'[Processing Fees]
-)
+Credit Cards Balance =
+SUM('Clients - Banking'[Credit Card Balance])
 
-🔎 Python EDA
+🔎 Python Exploratory Data Analysis
 
-Exploratory Data Analysis was performed using Python, Pandas, Matplotlib, and Seaborn.
+The project includes a Jupyter Notebook for exploratory analysis using Python.
 
-The EDA includes:
+The EDA covers:
 
-Data Inspection
+Data Understanding
 
 Dataset shape
 
@@ -396,11 +335,11 @@ Descriptive statistics
 
 Column inspection
 
-Individual customer-level filtering
+Missing-value analysis
+
+Customer-level analysis
 
 Categorical Analysis
-
-The analysis covers variables such as:
 
 Banking relationship
 
@@ -416,15 +355,9 @@ Fee structure
 
 Loyalty classification
 
-Properties owned
-
-Risk weighting
-
 Income band
 
 Numerical Analysis
-
-Numerical variables analyzed include:
 
 Estimated income
 
@@ -440,13 +373,11 @@ Checking accounts
 
 Savings accounts
 
-Foreign currency account
+Foreign currency accounts
 
 Business lending
 
 Visual Analysis
-
-The notebook includes:
 
 Bar charts
 
@@ -454,23 +385,15 @@ Count plots
 
 Histograms
 
-KDE-based distributions
+Distribution plots
 
 Categorical comparisons
 
 Correlation heatmap
 
-Correlation Analysis
+📈 Key KPIs
 
-A correlation matrix was created for the major numerical banking variables.
-
-The EDA documentation notes positive relationships between bank deposits, checking accounts, savings accounts, and foreign currency accounts, indicating that customers with higher balances in one account category may also maintain substantial balances across other account types.
-
-📈 Key Business Metrics
-
-The dashboard focuses on the following banking metrics:
-
-Metric
+KPI
 
 Description
 
@@ -488,11 +411,11 @@ Total bank loan amount
 
 Business Lending
 
-Lending amount associated with businesses
+Total business lending amount
 
 Total Deposit
 
-Combined bank, savings, checking, and foreign currency deposits
+Combined deposit and account balances
 
 Total Fees
 
@@ -500,7 +423,7 @@ Fees calculated from loan amounts and processing fee rates
 
 Bank Deposit
 
-Total amount deposited in bank accounts
+Total bank deposit amount
 
 Checking Account
 
@@ -520,13 +443,13 @@ Total credit card balance
 
 Engagement Days
 
-Number of days since customers joined the bank
+Number of days since the customer joined the bank
 
-📌 Business Insights
+💼 Business Insights
 
-The project enables analysis of:
+The dashboard can be used to analyze:
 
-Customer distribution across different banking relationships
+Customer distribution across banking relationships
 
 Loan exposure across income bands
 
@@ -538,11 +461,11 @@ Customer engagement duration
 
 Fee generation from lending activity
 
-Distribution of different account balances
+Account balance distribution
 
-Relationships between banking variables
+Relationships between different banking variables
 
-The project documentation also highlights the use of customer, nationality, banking relationship, and account-level information to support banking strategy and portfolio analysis.
+These insights can support banking teams in understanding their customer base and financial portfolio.
 
 📁 Repository Structure
 
@@ -554,6 +477,7 @@ Banking-Analytics-PowerBI-python-sql-AI/
 ├── Banking(1).csv
 ├── bank_EDA.ipynb
 │
+├── BANKING_DASHBOARD_HOME.png
 ├── HOME.png
 ├── LOAN ANALYSIS.png
 ├── DEPOSIT_ANALYSIS.png
@@ -568,13 +492,13 @@ Power BI
 
 Download Banking_Dashboard.pbix.
 
-Open the file using Power BI Desktop.
+Open it in Power BI Desktop.
 
-Review the Home, Loan Analysis, Deposit Analysis, and Summary pages.
+Navigate through the Home, Loan Analysis, Deposit Analysis, and Summary pages.
 
-Use the available slicers and navigation buttons to interact with the dashboard.
+Use the available filters and navigation buttons.
 
-Use Drill Through where applicable for detailed analysis.
+Use Drill Through for detailed analysis where available.
 
 Python EDA
 
@@ -582,27 +506,25 @@ Open bank_EDA.ipynb.
 
 Install the required Python libraries.
 
-Connect to the PostgreSQL database if reproducing the SQL workflow.
+Load the banking dataset.
 
-Load the customer banking data.
+Run the notebook cells sequentially to reproduce the analysis.
 
-Run the notebook cells sequentially to reproduce the EDA.
+Install the main libraries with:
 
-Example libraries:
-
-pip install pandas numpy matplotlib seaborn psycopg2-binary sqlalchemy
+pip install pandas numpy matplotlib seaborn
 
 📄 Project Documentation
 
-The repository also contains Banking_Report.docx, which documents:
+The repository includes Banking_Report.docx, which contains supporting documentation covering:
 
 Problem statement
 
-Dataset structure
+Dataset information
 
 Data cleaning
 
-Calculated columns
+Feature engineering
 
 DAX functions
 
@@ -616,49 +538,44 @@ Future work
 
 🔮 Future Scope
 
-The project can be extended by adding:
+This project can be extended with:
 
 Customer segmentation
 
-Loan default prediction
-
 Credit risk scoring
+
+Loan default prediction
 
 Customer churn analysis
 
 Time-series analysis
 
+Predictive analytics
+
 Automated reporting
 
-Advanced predictive models
-
-Additional SQL-based analytics
-
-More granular customer-level risk analysis
-
-👤 Author
-
-Ravi Nandan Yadav
-
-Focus: Data Analytics | Power BI | SQL | Python | Banking Analytics
-
-⭐ Project Summary
-
-This project demonstrates an end-to-end banking analytics workflow combining:
-
-SQL → Python EDA → Data Preparation → DAX → Power BI → Interactive Banking Dashboard
-
-It showcases practical skills in data analysis, visualization, KPI development, business-oriented reporting, and banking analytics.
+Advanced customer-level risk analysis
 
 👨‍💻 Author
+
 Ravi Nandan
 
 Senior Market Research Analyst | Data Analytics Enthusiast
 
+Ravi Nandan is a Senior Market Research Analyst with an interest in data analytics, business intelligence, and data-driven decision-making. His work combines market research and analytical thinking with tools such as Power BI, SQL, Python, and Excel to transform data into structured business insights.
+
+Connect with me
+
 📧 Email: ravinandanyadavwork@gmail.com
 
-💼 LinkedIn: https://www.linkedin.com/in/ravi-nandan-yadav-156a6a15a/
+💼 LinkedIn: linkedin.com/in/ravi-nandan-yadav-156a6a15a
 
-💻 GitHub: https://github.com/yourusername
+💻 GitHub: github.com/ravi-nandan-data
 
-⭐ If you found this project useful, consider giving it a Star!
+⭐ Support the Project
+
+If you found this project useful or informative, consider giving the repository a ⭐ Star on GitHub.
+
+📌 Project Focus
+
+Banking Analytics • Power BI • SQL • Python • Data Analysis • Business Intelligence
